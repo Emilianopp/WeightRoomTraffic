@@ -1,6 +1,9 @@
 # WeightRoomTraffic
-object data="https://github.com/Emilianopp/WeightRoomTraffic/blob/main/WeightRoomReport.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="hhttps://github.com/Emilianopp/WeightRoomTraffic/blob/main/WeightRoomReport.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: Download PDF</a>.</p>
-    </embed>
-</object>
+Western Weight Room traffic analytics.
+Please download and read the report pdf file 
+This project was put on pause due to the COVID-19 epidemic
+
+Future features are:
+* Periodically downloading necessary data to make traffic prediction
+* Obtain access to Weight Room's twitter account to obtain more data
+* Make an infrastructure to periodically tweet daily weight room traffic once the facility re-opens
