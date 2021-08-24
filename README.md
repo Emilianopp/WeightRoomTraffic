@@ -1,7 +1,22 @@
 # WeightRoomTraffic
 Western Weight Room traffic analytics.
-Please download and read <a href="https://github.com/Emilianopp/WeightRoomTraffic/blob/main/WeightRoomReport.pdf">Weight Room Report</a>
-This project was put on pause due to the COVID-19 epidemic.
+Please download read the formal report over at [the project repository](https://github.com/Emilianopp/WeightRoomTraffic/blob/main/WeightRoomReport.pdf) 
+
+This project encompassed many python packages and was an end-end Data Science project
+
+### Data Gathering
+
+daily weather data was web-scraped using the python package Beautiful soup for the last 5 calendar years (2015-2020)
+
+Twitter API was used in order to gather Recreation centre traffic for the last 5 years (2015-2020)
+
+
+### Data Processing 
+In order to obtain desired input structure, Data was cleansed, formatted and transformed using Pandas, Numpy as well as Scikit-learn 
+
+### Modeling
+Due to the data being sequenced via time, a Recurrent Neural Network was the choice of model.
+To view exact hyperparameters and procedure used, please reference [the formal report](https://github.com/Emilianopp/WeightRoomTraffic/blob/main/WeightRoomReport.pdf) or the jupyter notebook
 
 Future features are:
 * Periodically downloading necessary data to make traffic prediction
